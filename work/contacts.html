@@ -2,9 +2,44 @@
         <a href="index.html">Главная</a>
         <a href="second.html">ВТорая</a>
         <a href="contacts.html">Контакты</a>
-    </nav>
+</nav>
 
 Контакты
+<h2>Форма связи:</h2>
+<form method="post"> <!-- отключить валидацию novalidate -->
+    <input type="hidden" name="spy" value="1">
+    <input type="text" name="user-name" placeholder="Ваше имя">
+    <input type="number" min="18" max="135"  name="user-age" placeholder="Введите возраст" title="Ваш возраст">
+    <p>
+    <select name="user-class"  disabled>
+        <option value="1">Первый</option>
+        <option value="2">Второй</option>
+        <option value="3" selected>Третий</option>
+    </select>
+    </p>
+    <p>Уровень подготовки: <input type="range" step="1" max="2"></p><!-- value="2" -->
+    <input type="date">
+    <input type="datetime-local">
+    <p>Выберите цвет: <input type="color"></p>
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="пароль">
+
+    <p>
+        <p>Выберите гендер:</p>
+        <span>М</span><input type="radio" name="gender" value="man">
+        <span>Ж</span><input type="radio" name="gender" value="woman">
+    </p>
+    
+    <p>Прикрепите ваше фото<input type="file"></p>
+    <p>
+        <label for="">Согласен с правилами</label>
+        <input type="checkbox" required checked>
+    </p>
+    <input type="submit"> <!-- отключить валидацию formnovalidate -->
+    <input type="reset"  value="Очистить">
+</form>
+file:///C:/Users/kondusov_aa/Documents/rpo-24-6-html/work/contacts.html?user-name=sdfghulik&user-age=100&gender=on
+<hr>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam modi facilis culpa repellat sed quo magnam suscipit placeat sit ducimus nisi, mollitia, beatae maxime, distinctio aspernatur natus cupiditate iure animi.</p>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam modi facilis culpa repellat sed quo magnam suscipit placeat sit ducimus nisi, mollitia, beatae maxime, distinctio aspernatur natus cupiditate iure animi.</p>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam modi facilis culpa repellat sed quo magnam suscipit placeat sit ducimus nisi, mollitia, beatae maxime, distinctio aspernatur natus cupiditate iure animi.</p>
