@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+    nav{
+        background-color: aqua;
+        position: sticky;
+        top: 0;
+        padding: 5px 3px;
+    }
+    nav a{
+        border-right: 3px #6798 solid;
+        padding: 3px 8px;
+    }
+    #btn-up{
+        position: fixed;
+        right: 25px;
+        bottom: 20px;
+    }
+    #btn-up button{
+        padding: 8px 3px;
+        background-color: rgb(244, 95, 36);
+        color: #ffff;
+    }
+    footer{
+        display: none;
+        background-color: black;
+        color: white ;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .inline-block p{
+        width: 30%;
+        display: inline-block;
+    }
+    .auto-width-column{
+        display: flex;
+    }
+    .auto-width-column div{
+        flex: 1;
+    }
+    .canvas{
+        height: 380px;
+        background-color: rgb(160, 221, 215);
+        position: relative;
+    }
+     .canvas p{
+        background-color: rgba(154, 81, 131, 0.6);
+        width: 50px;
+        height: 50px;
+        border-radius: 45px;
+     }
+     #circle-4{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+     }
+     #circle-3{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+     }
+     #circle-2{
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+     }
+     #circle-1{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+     }
+</style>
+<body>
+    <span id="up"></span>
+    <a id="btn-up" href="#up">
+        <button>наверх</button>
+    </a>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="second.html">ВТорая</a>
+        <a href="contacts.html#footer">Контакты</a><!-- Якорь на другой странице -->
+        <a href="#45675678678">Якорь на эленмент</a>
+        <a href="catolog/about.html">Ссылка на страницу в другом каталог</a>
+    </nav>
+    <h1>Позиционирование</h1>
+    <section class="inline-block">    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+    </section>
+    <section class="auto-width-column">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+    </section>
+    <section class="auto-width-column">    
+        <div>
+           <p>Lorem ipsum  amet . Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+        </div>
+        <div>
+            <p>Lorem ipsufugiat sapiente temporibus itaque sed, cumque doloribus eum faciliste.</p>
+            <p>Lorem ipsufugiat sapiente temporibus itaque sed, cumque doloribus eum f</p>
+        </div>
+        <div>
+            <p>Lorem ipsufugiat sapiente temporibus itaque sed, cumque doloribus eum faciliste.</p>
+            <p>Lorem ipsufugiat sapiente temporibus itaque sed, cumque doloribus eum f</p>
+        </div>
+        
+        <div>
+            <p>Lorem ipsum  amet . Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+        </div>
+    </section>
+    <section class="canvas" >
+        <p id="circle-1"></p>
+        <p id="circle-2"></p>
+        <p id="circle-3"></p>
+        <p id="circle-4"></p>
+    </section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat perspiciatis fugiat sapiente temporibus itaque sed, cumque doloribus eum facilis. Odit animi molestiae mollitia quod aut reiciendis alias quam sapiente.</p>
+    <footer><p>2026</p></footer>
+</body>
+</html>
