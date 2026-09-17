@@ -1,0 +1,15 @@
+table{
+    background-color: rgb(239, 156, 107);
+}
+td{
+    /* padding: 5px 10px 5px 10px; */
+    padding: 5px 10px;
+}
+button{
+    /* width: 50px;
+    height: 30px; */
+    padding: 7px 15px;
+}
+.container-button{
+    width: 110px;
+}

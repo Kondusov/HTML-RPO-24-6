@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+            background-image: url(img/star.jfif);
+            background-size: 10px ;
+    }
+    table{
+        border-spacing: 0;
+        font-family:monospace;
+    }
+    td{
+        border: 1px #689 solid;
+    }
+    button{
+        margin-top: 20px;
+        background-color: aquamarine;
+    }
+    .btn-save{background-color: green;}
+    #button-change{
+        background-color: red;
+    }
+
+</style>
+</head>
+
+<body>
+    <h1 style="color: blueviolet;">Таблица</h1><!-- inline стиль css -->
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Ряд-1</th>
+                <th>Ряд-2</th>
+                <th>Ряд-3</th>
+                <th>Ряд-4</th>
+                <th>Ряд-5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>ячейка</td>
+            <td>ячейка</td>
+            <td>ячейка</td>
+            <td>ячейка</td>
+            <td>ячейка</td>
+        </tr>
+        <tr>
+            <td>ячейка2</td>
+            <td>&nbsp</td>
+            <td>ячейка2</td> 
+            <td>ячейка2</td> 
+            <td>ячейка2</td> 
+        </tr>
+        <tr>
+            <td>ячейка3</td>
+            <td>ячейка3</td>
+            <td>ячейка3</td>
+            <td>ячейка3</td>
+            <td>ячейка3</td>
+        </tr>
+        </tbody>
+        
+    </table>
+    <button>Обновить</button>
+    <button class="btn-save" >Сохранить</button>
+    <div class="container-button">
+        <button id="button-change">Редактировать</button>
+    </div>
+</body>
+</html>
